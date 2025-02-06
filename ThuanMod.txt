@@ -1,1 +1,32 @@
-bG9jYWwgcmVkemxpYiA9IGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdmluaDEyZXF3ZWF3cy92dnZzL3JlZnMvaGVhZHMvbWFpbi9jYXoiKSkoKQpsb2NhbCBXaW5kb3cgPSByZWR6bGliOk1ha2VXaW5kb3coewogIFRpdGxlID0gIlRodcOqdCBNb2QgVjEiLAogIFN1YlRpdGxlID0gInNjcmlwdCDDoG8gaMOhbiA6IDIwIHBodcOqbCIsCn0pCmxvY2FsIEFGS09wdGlvbnMgPSB7fQpsb2NhbCBEaXNjb3JkID0gV2luZG93Ok1ha2VUYWIoeyJZb3V0dWJlIiwgInZpZGVvIn0pCkRpc2NvcmQ6QWRkRGlzY29yZEludml0ZSh7CiAgTmFtZSA9ICJTY3JpcHQgQnkgWW91dHViZSBDaMO6YSBUw6ogSGFjayBCbG94IEZydWl0cyAtIFRodcOqdCBNb2QiLAogIERlc2NyaXB0aW9uID0gIkThu6VuIGtpIGtow6puIMSR4buBIEFkbWluIGPDsyBkb8OgbmcgbMOgbiBzY3JpcHQgbmhlbiIsCiAgTG9nbyA9ICJyYnhhc3NldGlkOi8vMTM2ODAzODkzNTAyMjI5IiwKICBJbnZpdGUgPSAiaHR0cHM6Ly95b3V0dWJlLmNvbS9AdGh1YW5yb2Jsb3gxP3NpPUQ2amRJRWVXV0tXMVZ5YzMiCn0pCmxvY2FsIERpc2NvcmQgPSBXaW5kb3c6TWFrZVRhYih7IkZhY2Vib29rIiwgInBsYXkifSkKRGlzY29yZDpBZGREaXNjb3JkSW52aXRlKHsKICBOYW1lID0gIlRodcOqdCBOdeG7hSIsCiAgRGVzY3JpcHRpb24gPSAiVMOibiBUcsaw4budbmcgRmFjZWJvb2sgQXV0byBT4bqleSBSYSBUcmFuZyBDw7MgbmfDoG4gQ8OzYSBBZG1pbiBTY3JpcHQiLAogIExvZ28gPSAicmJ4YXNzZXRpZDowMTA2NTczMDQ3OTc1OTY5IiwKICBJbnZpdGUgPSAiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3NoYXJlLzE5VEpuMWhrd1AvIgp9KQpsb2NhbCBUYWIgPSBXaW5kb3c6TWFrZVRhYih7IlNjcmlwdCBN4buHSSIsIEljb24gPSAicmJ4YXNzZXRpZDowMTA3MzQ5NDE0OTkiLCBQcmVtaXVtT25seSA9IGZhbHNlfSkKVGFiOkFkZEJ1dHRvbih7CiAgTmFtZSA9ICJORVdCOiBCbHVlIFgiLAogIENhbGxiYWNrID0gZnVuY3Rpb24oKQogICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9EZXYtQmx1ZVgvQmx1ZVgtSHViL3JlZnMvaGVhZHMvbWFpbi9NYWluLmx1YSIpKCkKICBlbmQKfSkK
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh12eqweaws/vvvs/refs/heads/main/caz"))()
+local Window = redzlib:MakeWindow({
+  Title = "Thuận Mod V1",
+  SubTitle = "script có hạn : 20 phút",
+})
+
+local AFKOptions = {}
+
+local Discord = Window:MakeTab({"Youtube", "video"})
+Discord:AddDiscordInvite({
+  Name = "Script By Youtube Chúa Tể Hack Blox Fruits - Thuận Mod",
+  Description = "Đăng kí kênh để Admin có động lực làm script nhen",
+  Logo = "rbxassetid://136803893502229",
+  Invite = "https://youtube.com/@thuanroblox1?si=D6jdIEeWWKW1Vyc3"
+})
+local Discord = Window:MakeTab({"Facebook", "play"})
+Discord:AddDiscordInvite({
+  Name = "Thuận Vũ,
+  Description = "Tìm Trên Facebook Auto Sẽ Ra Trang Cá Nhân Của Admin Script",
+  Logo = "rbxassetid://106573047975969",
+  Invite = "https://www.facebook.com/share/19TJn1hkwP/"
+  })
+local Tab = Window:MakeTab({"Script Mới",
+	Icon = "rbxassetid://10734941499",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "NEW: Blue X",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  	end    
+})
