@@ -1,0 +1,32 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh12eqweaws/vvvs/refs/heads/main/caz"))()
+local Window = redzlib:MakeWindow({
+  Title = "Thuận Mod V1",
+  SubTitle = "script có hạn : 20 phút",
+})
+
+local AFKOptions = {}
+
+local Discord = Window:MakeTab({"Youtube", "video"})
+Discord:AddDiscordInvite({
+  Name = "Script By Youtube Chúa Tể Hack Blox Fruits - Thuận Mod",
+  Description = "Đăng kí kênh để Admin có động lực làm script nhen",
+  Logo = "rbxassetid://136803893502229",
+  Invite = "https://youtube.com/@thuanroblox1?si=D6jdIEeWWKW1Vyc3"
+})
+local Discord = Window:MakeTab({"Facebook", "play"})
+Discord:AddDiscordInvite({
+  Name = "Thuận Vũ,
+  Description = "Tìm Trên Facebook Auto Sẽ Ra Trang Cá Nhân Của Admin Script",
+  Logo = "rbxassetid://106573047975969",
+  Invite = "https://www.facebook.com/share/19TJn1hkwP/"
+  })
+local Tab = Window:MakeTab({"Script Mới",
+	Icon = "rbxassetid://10734941499",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "NEW: Blue X",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  	end    
+})
